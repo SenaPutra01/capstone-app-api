@@ -4,6 +4,13 @@
   "description": "Repository for Binar Academy Capstone Project Group 1 - Backend",
   "main": "index.js",
   "scripts": {
+    "start": "node -r dotenv/config bin/www",
+    "develop": "nodemon -r dotenv/config bin/www",
+    "eslint": "eslint bin/www",
+    "db:create": "sequelize db:create",
+    "db:drop": "sequelize db:drop",
+    "db:migrate": "sequelize db:migrate",
+    "db:seed": "sequelize db:seed:undo:all && sequelize db:seed:all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
