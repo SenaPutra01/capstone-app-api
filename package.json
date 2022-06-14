@@ -1,0 +1,23 @@
+{
+  "name": "capstone-backend",
+  "version": "1.0.0",
+  "description": "Repository for Binar Academy Capstone Project Group 1 - Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/luminerrr/capstone-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/luminerrr/capstone-backend/issues"
+  },
+  "homepage": "https://gitlab.com/luminerrr/capstone-backend#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  }
+}
