@@ -11,13 +11,13 @@ module.exports = {
       image: {
         type: Sequelize.STRING
       },
-      fullName: {
+      userName: {
         type: Sequelize.STRING
       },
       email: {
         type: Sequelize.STRING
       },
-      encryptedPassword: {
+      password: {
         type: Sequelize.STRING
       },
       phone: {
@@ -29,13 +29,8 @@ module.exports = {
       address: {
         type: Sequelize.STRING
       },
-      role_id: {
-        type: Sequelize.INTEGER,
-        allowNull : false,
-        references:{            //user has role
-          model: 'Roles',
-          key: 'id'
-        }
+      refresh_token: {
+        type: Sequelize.TEXT
       },
       createdAt: {
         allowNull: false,
