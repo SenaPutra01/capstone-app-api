@@ -4,8 +4,8 @@
   "description": "Repository for Binar Academy Capstone Project Group 1 - Backend",
   "main": "index.js",
   "scripts": {
-    "start": "node -r dotenv/config bin/www",
-    "develop": "nodemon -r dotenv/config bin/www",
+    "start": "node bin/www",
+    "develop": "nodemon bin/www",
     "eslint": "eslint bin/www",
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",
@@ -25,7 +25,8 @@
   },
   "homepage": "https://gitlab.com/luminerrr/capstone-backend#readme",
   "devDependencies": {
-    "eslint": "^8.17.0"
+    "eslint": "^8.17.0",
+    "nodemon": "^2.0.16"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
