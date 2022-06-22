@@ -4,7 +4,6 @@ const { getUser, Register, Login, Logout } = require("../controllers/userControl
 const { verifyToken } = require("../middleware/VerifyToken");
 
 function apply(app) {
-
   app.post("/api/user/register", Register);
   app.post("/api/user/login", Login);
   app.get("/api/user/token", refreshToken);
